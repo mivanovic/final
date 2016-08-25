@@ -1,6 +1,84 @@
 html {
   margin: 0;
-  padding: 0;
-  color: red; }
+  padding: 0; }
+
+nav {
+  background-color: transparent; }
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("/static/app/images/background.png");
+  background-size: cover;
+  height: 900px;
+  padding-top: 300px; }
+
+section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center; }
+
+a {
+  color: #ffffff;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+li a {
+  letter-spacing: 1px;
+  font-weight: 400; }
+  li a:hover {
+    background-color: transparent !important; }
+  li a:focus {
+    background-color: transparent !important; }
+
+@media screen and (min-width: 767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
+
+  .top-nav-collapse {
+    padding: 12px;
+    background-color: #222; } }
+.navbar-brand {
+  padding: 0; }
+
+#about {
+  background-color: #ffffff; }
+
+#services {
+  background-color: #f7f7f7; }
+
+#contact {
+  background-color: #CCC9BC; }
+
+#team {
+  background-color: #9CB2B1; }
+
+#portfolio {
+  background-color: #A8CCC9; }
+
+.intro-text {
+  text-align: center; }
+
+.more-button {
+  border-radius: 3px;
+  margin-top: 80px;
+  margin-bottom: 8px;
+  width: 260px;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border: 2px solid white;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-align: center;
+  height: 40px; }
+  .more-button:hover {
+    background-color: white;
+    text-decoration: none;
+    color: black; }
 
 /*# sourceMappingURL=base.css.map */
