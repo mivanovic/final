@@ -18,6 +18,9 @@ from django.contrib import admin
 from finalapp import views
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
     url(r'^$', views.index),
+    url(r'^references/', views.references, name='references'),
+    url(r'^blog/', views.blog, name='blog'),
+
+    url(r'^admin/', admin.site.urls),
 ]
